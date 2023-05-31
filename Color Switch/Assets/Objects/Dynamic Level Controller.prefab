@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1662114030725411451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1662114030725411429}
+  - component: {fileID: 1662114030725411428}
+  m_Layer: 0
+  m_Name: Dynamic Level Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1662114030725411429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662114030725411451}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.2218766, y: 0.17591974, z: -4.545594}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1662114030725411428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662114030725411451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3953ebaaedf536a438f9b1f20850a63b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Obstacles:
+  - {fileID: 9103608383712262174, guid: 322eff87d9fa2f84b84dd3f7cd62c839, type: 3}
+  - {fileID: 6410271099483321082, guid: 261d917390f8df2419d29f211b2b1d66, type: 3}
+  - {fileID: 3274874013486583006, guid: 07fa6e68dbd9e3b4e9065d5c0d62e932, type: 3}
+  ColorChanger: {fileID: 378290911212672092, guid: b6cf57b7215c74442af960bf9b6edf4b, type: 3}
+  Bonus: {fileID: 6815900951638261192, guid: 67a68dec3b4ce1d45978435a40588b0b, type: 3}
